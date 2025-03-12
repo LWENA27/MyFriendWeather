@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    tools:ignore="ExtraText">
+
+    <!-- App Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MyFriendWeather"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Username Input -->
+    <TextView
+        android:id="@+id/usernameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/usernameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Enter your username"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textSize="16sp" />
+
+    <!-- Location Input -->
+    <TextView
+        android:id="@+id/locationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/locationInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Enter your location"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textSize="16sp" />
+
+    <!-- Phone Number Input -->
+    <TextView
+        android:id="@+id/phoneLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/phoneInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Enter your phone number"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textSize="16sp" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="18sp"
+        android:backgroundTint="@color/blue"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/viewDataButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View All Data"
+        android:textSize="18sp"
+        android:backgroundTint="@color/green"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

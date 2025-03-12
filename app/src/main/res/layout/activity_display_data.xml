@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- ScrollView to make the content scrollable -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <!-- LinearLayout to hold the content -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- TextView to display data -->
+            <TextView
+                android:id="@+id/dataTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Button to go back -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Main"
+        android:textSize="18sp"
+        android:backgroundTint="@color/blue"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"/> <!-- Add margin here -->
+</LinearLayout>
