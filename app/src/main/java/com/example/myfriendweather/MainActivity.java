@@ -1,5 +1,4 @@
 package com.example.myfriendweather;
-//up to this point code was correct
 import android.database.Cursor;
 import android.os.Bundle;
 import android.util.Log;
